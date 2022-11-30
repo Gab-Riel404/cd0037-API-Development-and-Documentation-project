@@ -252,7 +252,7 @@ def create_app(test_config=None):
                     random_question = None
                     break
                 
-            random_question = random.choice(next_questions)
+                random_question = random.choice(next_questions)
                 
             return jsonify(
                 {
